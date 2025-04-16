@@ -119,7 +119,7 @@ The approach would be hybrid.
 - Live coding demos and pre-configured notebook to deliver the main teaching points.
 - Further information through Q&A, as well as other exmaples.
 
-Besided live coding there are further techniques, that I would apply to keep my audience engaged.
+Besides live coding there are further techniques, that I would apply to keep my audience engaged.
 
 1. Polls at key moments (e.g. What would you use dlt for?)
 2. Code challenges (e.g. spot the bug)
