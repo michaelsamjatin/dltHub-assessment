@@ -65,7 +65,7 @@ The destination of the data will be DuckDB, as its fast, lightweight and every t
 
 #### 🔋 Get started
 
-The code for the dlt pipline is located in this [file](main.ipynb).
+The code for the dlt pipline is located in this [file](main.ipynb), while auxiliary functions are pulled from [here](auxiliary.py).
 Unfortunately, we will not be able to use the actual data I worked with during this challenge.
 However, we will use two substitues, from the same professional domain, to simulate the scenario.
 Here we introduce MVTecAD and DAGM 2007, two anomaly detection datasets which demonstrate the original scenario.

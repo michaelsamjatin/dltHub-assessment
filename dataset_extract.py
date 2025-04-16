@@ -151,7 +151,7 @@ if __name__ == "__main__":
     Main execution block for sampling industrial anomaly detection datasets.
     
     This script creates excerpts from both MVTec and DAGM datasets, organizing
-    them into a structured directory format with clean and anomaly/mask samples.
+    them into a directory format, while maintaining original structure.
     """
     # To replicate: Replace the paths below with your own paths
     mvtec_root = Path("mvtec")     # Root directory for MVTec dataset
