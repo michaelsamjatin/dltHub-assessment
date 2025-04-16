@@ -37,6 +37,7 @@ def show_sample_images(data_root: str, dataset: str = "dagm", category: str = "0
 
         print("Image size: ", img.size)
 
+        # Visualize the anomaly image
         axes = [axes] if not isinstance(axes, (list, np.ndarray)) else axes
         axes[0].imshow(img, cmap="gray")
         axes[0].set_title(f"Image: {img_path.name}")
@@ -46,7 +47,7 @@ def show_sample_images(data_root: str, dataset: str = "dagm", category: str = "0
         possible_mask_1 = mask_dir / (img_path.stem + "_mask.png")
         possible_mask_2 = mask_dir_dagm / (img_path.stem + "_label.PNG")
 
-
+        # Visualize the anomaly mask
         if possible_mask_1.exists():
             mask = Image.open(possible_mask_1)
             axes[1].imshow(mask, cmap="gray")
